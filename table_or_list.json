@@ -1,0 +1,329 @@
+{
+	"fileName": "Table Demo",
+	"fileDate": "June 2020",
+	"products": [{
+			"phone": [{
+				"title": "Phone"
+			}, {
+				"class": "phone"
+			}]
+		},
+		{
+			"text": [{
+				"title": "Text"
+			}, {
+				"class": "text"
+			}]
+		},
+		{
+			"chat": [{
+				"title": "Chat"
+			}, {
+				"class": "chat"
+			}]
+		},
+		{
+			"email": [{
+				"title": "Email"
+			}, {
+				"class": "email"
+			}]
+		},
+		{
+			"telegram": [{
+				"title": "Telegram"
+			}, {
+				"class": "telegram"
+			}]
+		},
+		{
+			"letter": [{
+				"title": "Letter"
+			}, {
+				"class": "letter"
+			}]
+		}
+	],
+
+	"people": [{
+			"youth_1_9": [{
+				"x_options": [{
+						"phone": "true"
+					},
+					{
+						"text": "false"
+					},
+					{
+						"chat": "false"
+					},
+					{
+						"email": "false"
+					},
+					{
+						"telegram": "false"
+					},
+					{
+						"letter": "true"
+					}
+				],
+				"y_headers": [{
+						"title": "Youth (age 1-9)"
+					},
+					{
+						"class": "header1"
+					}
+				]
+			}]
+
+		},
+		{
+			"youth_10_15": [{
+				"x_options": [{
+						"phone": "true"
+					},
+					{
+						"text": "true"
+					},
+					{
+						"chat": "true"
+					},
+					{
+						"email": "false"
+					},
+					{
+						"telegram": "false"
+					},
+					{
+						"letter": "false"
+					}
+				],
+				"y_headers": [{
+						"title": "Youth (age 10-15)"
+					},
+					{
+						"class": "header2"
+					}
+				]
+			}]
+
+		},
+		{
+			"teen_16-19": [{
+				"x_options": [{
+						"phone": "false"
+					},
+					{
+						"text": "true"
+					},
+					{
+						"chat": "true"
+					},
+					{
+						"email": "true"
+					},
+					{
+						"telegram": "false"
+					},
+					{
+						"letter": "false"
+					}
+				],
+				"y_headers": [{
+						"title": "Teen (age 16-19)"
+					},
+					{
+						"class": "header3"
+					}
+				]
+			}]
+
+		},
+		{
+			"twenties": [{
+				"x_options": [{
+						"phone": "false"
+					},
+					{
+						"text": "true"
+					},
+					{
+						"chat": "true"
+					},
+					{
+						"email": "true"
+					},
+					{
+						"telegram": "false"
+					},
+					{
+						"letter": "false"
+					}
+				],
+				"y_headers": [{
+						"title": "Twenties (20-29)"
+					},
+					{
+						"class": "header4"
+					}
+				]
+			}]
+
+		},
+		{
+			"thirties": [{
+				"x_options": [{
+						"phone": "false"
+					},
+					{
+						"text": "true"
+					},
+					{
+						"chat": "true"
+					},
+					{
+						"email": "true"
+					},
+					{
+						"telegram": "false"
+					},
+					{
+						"letter": "true"
+					}
+				],
+				"y_headers": [{
+						"title": "Thirties (30-39)"
+					},
+					{
+						"class": "header5"
+					}
+				]
+			}]
+
+		},
+		{
+			"fourties": [{
+				"x_options": [{
+						"phone": "true"
+					},
+					{
+						"text": "true"
+					},
+					{
+						"chat": "true"
+					},
+					{
+						"email": "true"
+					},
+					{
+						"telegram": "false"
+					},
+					{
+						"letter": "true"
+					}
+				],
+				"y_headers": [{
+						"title": "Fourties (40-49)"
+					},
+					{
+						"class": "header6"
+					}
+				]
+			}]
+
+		},
+		{
+			"fifties": [{
+				"x_options": [{
+						"phone": "true"
+					},
+					{
+						"text": "true"
+					},
+					{
+						"chat": "true"
+					},
+					{
+						"email": "true"
+					},
+					{
+						"telegram": "false"
+					},
+					{
+						"letter": "true"
+					}
+				],
+				"y_headers": [{
+						"title": "Fifties (50-59)"
+					},
+					{
+						"class": "header7"
+					}
+				]
+			}]
+
+		},
+		{
+			"sixties": [{
+				"x_options": [{
+						"phone": "true"
+					},
+					{
+						"text": "false"
+					},
+					{
+						"chat": "false"
+					},
+					{
+						"email": "true"
+					},
+					{
+						"telegram": "true"
+					},
+					{
+						"letter": "true"
+					}
+				],
+				"y_headers": [{
+						"title": "Sixties (60-69)"
+					},
+					{
+						"class": "header8"
+					}
+				]
+			}]
+
+		},
+		{
+			"seventies": [{
+				"x_options": [{
+						"phone": "true"
+					},
+					{
+						"text": "false"
+					},
+					{
+						"chat": "false"
+					},
+					{
+						"email": "false"
+					},
+					{
+						"telegram": "true"
+					},
+					{
+						"letter": "true"
+					}
+				],
+				"y_headers": [{
+						"title": "Seventies (70-79)"
+					},
+					{
+						"class": "header9"
+					}
+				]
+			}]
+
+		}
+
+	]
+}

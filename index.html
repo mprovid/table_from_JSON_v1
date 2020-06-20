@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>Table or List from JSON Data</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Table from JSON Demo">
+		<meta name="author" content="Michael Providenti">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="table_or_list.js"></script>
+		<link rel="stylesheet" href="table_or_list.css">
+
+	</head>
+    <body>
+        <h1>Table, List, or Select Menu from JSON Data</h1>
+        <p>The table has headers and scope. The titles of the headers and categories come from the JSON file. The data cells indicate if the intersection of the sets is true or false. The content in the data cells, the <abbr title="checkmark">&check;</abbr> (checkmark) reads as "yes" in screen readers (the absence of a checkmark reads "no").</p>
+        <p>The advantage to using JSON depends on how many ways and how many places the data needs to be presented. While the entire data file can be represented as a table or a list, it also allows for only a portion of the data to be shared if that's what the context calls for.</p>
+        <p>The next version will feature simplified JSON and JS.</p>
+        
+        <div id="fulltable"></div>
+        <div id="fulllist"></div>
+        <div id="dropdown"></div>
+        <div id="category2"></div> <!-- only category1 or category2 will work at present -->
+        
+    </body>
+</html>

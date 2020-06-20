@@ -1,0 +1,33 @@
+table {
+	border: 1px solid black; 
+	color: black; 
+	text-align: center; 
+	font-weight: bold;
+	width: 98%;
+	}
+td {
+	background-color: white; 
+	border: 1px solid black; 
+	margin: 3px;
+	width: 14%;
+	}
+td[scope="row"] {
+	font-weight: bold; 
+	background-color: #f9f9f9;
+	}
+tr {
+	background-color: #f9f9f9; 
+	margin: 10px;
+	}
+th {
+	border: 1px solid black; 
+	margin: 3px; 
+	text-align: center;
+	}
+.visually-hidden {
+    position: absolute !important; 
+    height: 1px; 
+    width: 1px; 
+    overflow: hidden; 
+    clip: rect(1px, 1px, 1px, 1px);
+    }
